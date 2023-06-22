@@ -1,0 +1,16 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkgray;
+}
+
+.porcentagem {
+  border: 2px solid black;
+  border-radius: 12px;
+  width: min-content;
+  padding: 20px;
+  box-shadow: 2px 2px 10px black;
+}

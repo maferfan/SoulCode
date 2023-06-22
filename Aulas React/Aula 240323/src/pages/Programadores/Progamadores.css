@@ -1,0 +1,22 @@
+.alert {
+  color: red;
+}
+
+.programadores {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.form-programadores {
+  width: 70%;
+}
+
+.checkb {
+  display: flex;
+  gap: 20%;
+}

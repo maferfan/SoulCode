@@ -1,0 +1,20 @@
+.home {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  margin-top: 50px;
+}
+
+
+
+.aside {
+  width: 20%;
+}
+
+.main {
+  width: 80%;
+}
+
+.header {
+  height: 10%;
+}

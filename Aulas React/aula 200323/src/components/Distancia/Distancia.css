@@ -1,0 +1,19 @@
+.distancia {
+  width: min-content;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: #ffb6c1;
+  color: white;
+}
+
+.distancia p {
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.distancia input {
+  padding: 4px;
+  margin-bottom: 8px;
+}

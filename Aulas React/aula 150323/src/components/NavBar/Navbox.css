@@ -1,0 +1,26 @@
+.navBar {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navBar img {
+  width: 25px;
+  height: 25px;
+}
+
+.navBar ul {
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-around;
+  gap: 0 15px;
+
+}
+
+
+
+.navBar a {
+  text-decoration: none;
+  font-size: 15px;
+}

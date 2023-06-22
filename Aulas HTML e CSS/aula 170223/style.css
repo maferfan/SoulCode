@@ -1,0 +1,14 @@
+html {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 0px 50px;
+  align-items: center;
+}
+
+body {
+  background-color: aliceblue; width: 100%; padding-left: 20%; padding-right: 20%;
+}

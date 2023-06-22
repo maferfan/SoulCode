@@ -1,0 +1,19 @@
+Arquitetura: x64 
+  
+Plataforma: win32 
+  
+Tipo: Windows_NT 
+  
+Versão: Windows 10 Pro 
+  
+Tempo de atividade: 16139.921 
+  
+Memoria ram: 10554470400 
+  
+Memoria total: 17121153024 
+  
+Cpus: [{"model":"Intel(R) Core(TM) i5-3330 CPU @ 3.00GHz","speed":2993,"times":{"user":1104390,"nice":0,"sys":1865000,"idle":13170531,"irq":475468}},{"model":"Intel(R) Core(TM) i5-3330 CPU @ 3.00GHz","speed":2993,"times":{"user":1600171,"nice":0,"sys":684171,"idle":13855390,"irq":116562}},{"model":"Intel(R) Core(TM) i5-3330 CPU @ 3.00GHz","speed":2993,"times":{"user":1409250,"nice":0,"sys":483750,"idle":14246734,"irq":19359}},{"model":"Intel(R) Core(TM) i5-3330 CPU @ 3.00GHz","speed":2993,"times":{"user":1537046,"nice":0,"sys":418562,"idle":14184125,"irq":13312}}] 
+  
+Pasta home: C:\Users\Diniz 
+  
+Nome da maquina: DESKTOP-BREUJV3

@@ -1,0 +1,25 @@
+.foto img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+
+.divInput {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.inputFruta {
+  width: 300px;
+  height: 50px;
+  font-size: 40px;
+}
+
+.foto {
+
+  background-color: rgb(127, 186, 127);
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}

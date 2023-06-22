@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  height: 10vh;
+  background-color: #bdcdd0;
+}
+
+main {
+  padding: 20px;
+  width: 80%;
+  margin: auto auto;
+}
+
+form {
+  font-family: monospace;
+  font-size: 18px;
+  padding: 10px;
+}

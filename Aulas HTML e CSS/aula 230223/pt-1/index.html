@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Aula 5 HTML e CSS</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Interno */
+    li {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    footer {
+      color: orange;
+    }
+
+    strong {
+      color: black;
+    }
+  </style>
+</head>
+
+<!-- Inline -> style="" -->
+<!-- Interno -> <style> -->
+<!-- Externo -> style.css <link> -->
+
+<!--
+  Prioridade CSS:
+  inline > interno > externo
+-->
+
+<body>
+  <header>
+    <img src="https://soulcode.com/assets/img/logo.png" alt="">
+    <nav>
+      <ul>
+        <li><a href="#" style="color: red;">Home</a></li> <!-- inline -->
+        <li><a href="./contato.html" style="color: blue;">Contato</a></li>
+        <li><a href="./imprensa.html">Imprensa</a></li>
+        <li><a href="./sobre.html">Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: green;">Home</h1>
+      <p id="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt culpa animi est excepturi aperiam
+        repellat,
+        quaerat quae quod in fuga nobis similique voluptatem ducimus consequatur <i>laboriosam</i>. Praesentium
+        temporibus eius
+        vero.</p>
+      <p id="p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt culpa animi est excepturi aperiam
+        repellat,
+        quaerat quae quod in fuga nobis <i>laboriosam</i> voluptatem ducimus consequatur laboriosam. Praesentium
+        temporibus eius
+        vero.</p>
+
+    </section>
+    <section>
+      <div class="artigo">
+        <article>
+          <img src="./midias/eu-a-patroa-e-as-criancas.jpeg" alt="">
+          <small>Capa da serie Eu a Patroa e as Crianças. Ator que interpreta o Michel é pego por fãs em Shooping de São
+            Paulo.</small>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <small>&copy; <strong>Soulcode.com.</strong> Todos os direitos reservados</small>
+  </footer>
+</body>
+
+</html>

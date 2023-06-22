@@ -1,0 +1,25 @@
+.sorteio p {
+  border: 2px solid black;
+
+  padding: 5px 30px;
+  border-radius: 12px;
+
+}
+
+.sorteio button {
+  width: 100px;
+  height: auto;
+  margin: 20px;
+}
+
+.sorteio {
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 12px;
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}

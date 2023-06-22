@@ -1,0 +1,31 @@
+.perfil-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  margin-top: 50px;
+}
+
+.aside {
+  width: 20%;
+}
+
+.main {
+  width: 80%;
+}
+
+.header {
+  height: 10%;
+}
+
+
+.main p {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0 30px;
+}
+
+.main hr {
+  border: 0;
+  height: 5px;
+  background: #92b9cb
+}
