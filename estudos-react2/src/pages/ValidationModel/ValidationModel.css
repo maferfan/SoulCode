@@ -1,0 +1,37 @@
+.validation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://t.ctcdn.com.br/eflCNXTRdtdyoXVCDsLsl1RNHkM=/1400x788/smart/i706956.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+h2{
+    text-align: center;
+}
+
+.box2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.campo{
+    width: 200px;
+    padding: 10px 40px 10px 8px;
+    border-radius: 15px;
+}
+
+.date-status{
+    width: 200px;
+    padding: 10px 8px 10px 8px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.submit{
+    margin-top: 25px;
+}

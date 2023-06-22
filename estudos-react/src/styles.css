@@ -1,0 +1,8 @@
+/* Os estilos serão globais */
+
+body {
+  background-color: #efefef;
+  font-family: monospace;
+  margin: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,65 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+form{
+    margin: 10px 0 0 0;
+    background-color: rgb(10, 10, 10, 0.7);
+    padding: 60px;
+    border-radius: 20px;
+}
+
+.form-outline{
+    display: flex;
+    flex-direction: column;
+}
+
+.formControl{
+    border: 0;
+    padding: 8px;
+    outline: none;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    transition: opacity 1s;
+}
+
+.formControl:hover{
+    opacity: 0.3;
+    transition: opacity 1s;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0 0 0;
+}
+
+.checkbox{
+    display: flex;
+    gap: 30px;  
+}
+
+.link{  
+    color: rgb(24, 41, 110);
+}
+
+.submit{
+    width: 60%;
+}
+
+.but{
+    border-radius:100%;
+}
+
+.bg-dark:active {
+    opacity: 1;
+    transition: opacity 2s;
+}

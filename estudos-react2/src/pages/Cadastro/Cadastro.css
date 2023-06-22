@@ -1,0 +1,23 @@
+.container-cadastro{
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(182, 181, 181);
+    font-weight: bold;
+}
+
+
+
+select{
+    cursor: pointer;
+    border-radius: 24px;
+    outline: none;
+    appearance: none;
+    background-color: #b8b8b8;
+}
+
+select:hover{
+    background-color: #ddd;
+}
