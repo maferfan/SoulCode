@@ -1,0 +1,30 @@
+.product {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid black;
+  display: inline-block;
+  position: relative;
+  height: auto;
+
+}
+
+.product img {
+  width: 100%;
+}
+
+.product button {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 8px;
+  height: 28px;
+  border: 1px solid;
+}
+
+.product p {
+  padding-bottom: 20px;
+}
+
+.product button:hover {
+  background-color: rgb(188, 188, 188);
+}

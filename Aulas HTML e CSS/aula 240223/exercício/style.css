@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10% 20%;
+}
+
+.card {
+  display: inline-block;
+  width: 300px;
+  border: 1px solid;
+  box-shadow: 15px -16px teal;
+  margin-right: 20px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card p {
+  padding: 20px 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

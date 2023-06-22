@@ -1,0 +1,104 @@
+/* Os estilos serão globais */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: monospace;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+p,
+img,
+h1,
+h2 {
+  padding: 10px 0;
+}
+
+.titulo {
+  color: darkgray;
+}
+
+.paragrafo {
+  font-style: oblique;
+}
+
+.mensagem {
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 12px;
+  margin: 0 15%;
+  box-shadow: 2px 4px 10px darkgray;
+}
+
+.container-rodape {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(198, 196, 196);
+  position: static;
+  bottom: 0;
+  margin: 0;
+  padding: 10px 0;
+  width: 100%;
+  box-shadow: 2px 4px 10px darkgray;
+}
+
+.container-rodape p,
+.container-rodape h2 {
+  padding: 3px 0;
+}
+
+.card {
+  width: 200px;
+  height: auto;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 10px;
+
+  position: relative;
+}
+
+.card img {
+  padding: 0;
+}
+
+.card p {
+  margin-bottom: 15px;
+}
+
+.blog {
+  margin: 5%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#button {
+
+  width: auto;
+  height: auto;
+  padding: 7px;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color: #eeeeee;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+
+#button:hover {
+  background-color: darkgray;
+  transition: .4s;
+}
+
+.card:hover {
+  box-shadow: 2px 4px 15px darkgray;
+}

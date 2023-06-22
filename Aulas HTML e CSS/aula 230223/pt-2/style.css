@@ -1,0 +1,40 @@
+/* * -> Seletor universal */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  /* Alterar fonte padrão do documento */
+  font-family: 'Roboto', sans-serif;
+}
+h1, h2 {
+  /* Alterar o tamanho da fonte */
+  font-size: 35px;
+  /* Alterar o peso da fonte */
+  font-weight: 400;
+}
+
+h1 {
+  /* Sombreamento no texto */
+  text-shadow: 0.1em 0.1em 0.1em #10AA9F;
+  /* x y espessura cor */
+}
+
+h2 {
+  font-style: italic;
+  /* Aplica cor no texto */
+  /* #000000 os dois primeiros representam Vermelho, os do meio Verde, e os dois final Azul */
+  color: #10AA9F;
+}
+
+p {
+  /* Alinhamento de texto */
+  text-align: justify;
+  /* Tranformação de texto */
+  /* capitalize -> todas primeira letra da palavra ficará maiuscula */
+  /* lowercase -> todas letras ficarão minuscula */
+  /* uppercase -> todas letras ficarão maiuscula */
+  text-transform: uppercase;
+  /* Altura da linha (espaço entre uma linha de texto e outra)*/
+  line-height: 20px;
+}

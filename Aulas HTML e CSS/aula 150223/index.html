@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Aula 2 HTML e CSS</title>
+  </head>
+  <body>
+    <h2 title="Titulo de Imagem">Imagem</h2>
+    <figure>
+      <img
+        title="Capa da Série Eu a Patroa e as Crianças"
+        src="./midias/eu-a-patroa-e-as-criancas.jpeg"
+        alt="Capa da Série Eu a Patroa e as Crianças"
+      />
+      <figcaption>Capa da Série Eu a Patroa e as Crianças</figcaption>
+    </figure>
+
+    <h2>Video</h2>
+    <video src="./midias/abertura-chaves.mp4" controls></video>
+
+    <h2>Audio</h2>
+    <audio src="./midias/abertura-um-maluco-no-pedaco.mp3" controls></audio>
+
+    <hr />
+
+    <h2>Listas</h2>
+
+    <h3>Lista não ordenadas</h3>
+    <ul>
+      <!-- Unordered List -> Lista não ordenada  -->
+      <li>Farinha de Trigo</li>
+      <!-- List Item -> Item da Lista  -->
+      <li>Ovos</li>
+      <li>Leite</li>
+      <li>Açucar</li>
+    </ul>
+    <br />
+
+    <h3>Lista ordenada</h3>
+    <ol>
+      <li>Mistyre todos os ingredientes em uma tigela</li>
+      <li>Aqueça o forno a 180º</li>
+      <li>Coloque na forma untada</li>
+      <li>Leve ao forno por 30 minutos</li>
+    </ol>
+    <br />
+
+    <h3>Listas aninhadas</h3>
+    <ul>
+      <li>
+        Café da manhã
+        <ul>
+          <li>Pão</li>
+          <li>Café</li>
+          <li>Ovos</li>
+          <li>Frutas</li>
+        </ul>
+      </li>
+      <li>
+        Almoço
+        <ul>
+          <li>Arroz</li>
+          <li>Feijão</li>
+          <li>Batata frita</li>
+          <li>Macarrão</li>
+          <li>Ovos</li>
+        </ul>
+      </li>
+      <li>
+        Lanche
+        <ol>
+          <li>Suco</li>
+          <li>Bolo</li>
+          <li>Pão</li>
+        </ol>
+      </li>
+      <li>
+        Jantar
+        <ol>
+          <li>Hamburguer</li>
+          <li>Pizza</li>
+          <li>Refrigerante</li>
+        </ol>
+      </li>
+    </ul>
+
+    <h3>Listas de descrição</h3>
+
+    <dl>
+      <dt>HTML</dt>
+      <dd>
+        O HTML (HyperText Markup Language ou Linguagem de Marcação de Hyper
+        Texto) é a linguagem que estrutura os elementos visuais de uma página
+        web.
+      </dd>
+      <dt>CSS</dt>
+      <dd>
+        CSS (Casting Style Seheet ou Folhas de Estilo em Cascata) é uma
+        linguagem de estilização utilizada para melhorar a aparência visual de
+        elementos em um documento HTML.
+      </dd>
+    </dl>
+
+    <!-- 
+    Atributos Especificos (src, href, width, target)
+    Atributos Globais (id, class, title)
+  -->
+
+    <hr />
+
+    <br /><br />
+
+    <h2>Tabelas</h2>
+
+    <!-- <tr> Table Row - Linha da Tabela -->
+    <!-- <td> Table Data - Dado da Tabela -->
+    <!-- <th> Table Head - Cabeçalho da Tabela -->
+    <!-- <thead> Table Head - Cabeçalho da Tabela -->
+    <!-- <tbody> Table Body - Corpo da Tabela -->
+    <!-- <tfoot> Table foot - Rodapé da Tabela -->
+    <table border="1px">
+      <colgroup>
+        <col style="width: 150px" />
+        <col style="width: 150px" />
+        <col style="width: 100px" />
+        <col />
+      </colgroup>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Aréa</th>
+          <th>Idade</th>
+          <th>Estado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Gabriel B</td>
+          <td>Full Stack</td>
+          <td>21 anos</td>
+          <td rowspan="3" align="center">Ceará</td>
+        </tr>
+        <tr>
+          <td>Almir</td>
+          <td>Full Stack</td>
+          <td>23 anos</td>
+        </tr>
+        <tr>
+          <td>Igor</td>
+          <td>Eng. de Dados</td>
+          <td>30 anos</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td align="center" colspan="4">Professores da SoulCode</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <h3>Times do Brasil</h3>
+    <table border="1px">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Score</th>
+          <th>Gols</th>
+          <th>Vitórias</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Fluminense</td>
+          <td>320</td>
+          <td>20</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>Flamengo</td>
+          <td>320</td>
+          <td>24</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>Vasco</td>
+          <td>200</td>
+          <td>30</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>Corinthians</td>
+          <td>300</td>
+          <td>30</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>Palmeiras</td>
+          <td>200</td>
+          <td>23</td>
+          <td>4</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+HTML -> HyperText Markup Language (Linguagem de Marcação de Hyper Texto)
+HyperText -> Texto Inteligente
+Markup -> Marcação (Tags.)
+Language -> Linguagem (Sintaxe/Regras)
+
+Atributos -> Informações a mais aplicadas a uma tag
+Meta -> Meta dados: Informações para configurar o site
+
+Atalhos:
+CTRL + : = Comentar
+ALT + z = Quebrar linhas dentro do vscode. (Quando as linhas estão passando da tela)
+
+Tags:
+meta = Configuração de página ::: <meta>
+h1, h2 ... h6 = Título e Subtítulos ::: <h1> </h1>
+p = Parágrafos ::: <p> </p>
+b = Negrito ::: <b> </b>
+i = Itálico ::: <i> </i>
+strong = Destaque ::: <strong> </strong>
+em = Ênfase ::: <em: </em>
+small = Pequeno ::: small <small> </small>
+br = Quebrar linha ::: <br>
+hr = Linha horizontal ::: <hr> 
+a = Âncora (link) ::: <a href=""> </a>
+button = Botão ::: <button> </button> (o button pode ser usado dentro do link ::: <a href="" target><button> </button></a>)
+img = Imagem ::: <img src="" alt=""> 
+"Tags podem ser usadas dentro de outras tags"
+
+Atributos: 
+charset = Padrão de texto ::: charset=""
+href = Refencia de caminho (link) ::: href=""
+target = Destino do link ::: target="" (target="_blank" é usado pra abrir link em uma nova guia)
+src = Caminho de recurso (Por exemplo img) ::: src=""
+width = Largura ::: width=""
+height = Altura ::: height=""
+
+A fazer:                                 
+Olhar a documentação do emmet do vscode 

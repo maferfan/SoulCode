@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #d6daddc5;
+  margin: 0 auto 0 auto;
+}
+
+.card {
+  width: 300px;
+}
+
+.container .card {
+  display: inline-block;
+  justify-content: space-around;
+}
+
+.carousel {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.mb-3 {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.mt-3 {
+  width: 80% !important;
+  margin: 10px auto !important;
+}

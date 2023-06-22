@@ -1,0 +1,108 @@
+  <!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Aula 3 HTML e CSS</title>
+  </head>
+  <body>
+    <h3>Cadastro de Perfil</h3>
+    <!-- <form> -. Container do Formulario -->
+    <!-- <input>, <textare>, <selec> -> Campo do Formulario -->
+    <!-- <label> -> Rotulo de um campo de formulário -->
+    <form style="width: 600px; ">
+
+      <fieldset>
+
+        <legend>Dados Pessoais</legend>
+
+        <label for="forNome">Nome:</label>
+        <input type="text"id="forNome" required name="nome" maxlength="70" size="40"> <br>
+
+        <label for="forSenha">Senha:</label>
+        <input type="password" id="forSenha" required name="senha"> <br>
+
+        <label for="forEmail">E-mail:</label>
+        <input type="email" id="forEmail" required name="email"> <br>
+
+        <label for="forTelefone">Telefone:</label> 
+        <input type="tel" id="forTelefone" name="telefone"> <br>
+
+        <label for="forUrlInstagram">URL do Instagram:</label>
+        <input type="url" name="ulrInsta" id="forUrlInstagram"> <br>
+
+        <label for="forIdade">Idade:</label> 
+        <input type="number" id="forIdade" name="idade" min="0" max="130"> <br>
+
+        <label for="forDataNascimento">Data de Nascimento:</label> 
+        <input type="date" id="forDataNascimento" name="dataNascimento" min="2000-01-01" max="2023-02-16"> <br>
+
+        <label for="forHoraNascimento">Hora de Nascimento:</label>
+        <input type="time"id="forHoraNascimento" name="horaNascimento" required> <br>
+
+        <label for="forDataHoraNascimento">Data e Hora Nascimento</label>
+        <input type="datetime-local" id="forDataHoraNascimento" disabled name="dataHoraNascimento"> <br>
+
+        <label for="forFotoPerfil">Foto de Perfil (.png):</label>
+        <input type="file" id="forFotoPerfil" name="fotoPerfil" accept=".png, .jpeg"> <br>
+
+        <label for="forIdentidade">Identidade (Frente/Verso):</label>
+        <input type="file" id="forIdentidade" name="fotoIdentidade" multiple > <br>
+
+        <label for="forTermosDeUso">Aceito os termos de uso da plataforma.</label>
+        <input type="checkbox" id="forTermosDeUso" name="termosDeUso"> <br>
+
+        <label>Interesses:</label>
+        <label for="forHumanas">Humanas</label> 
+        <input id="forHumanas" name="interesses" type="checkbox"> 
+        <label for="forExatas">Exatas</label> 
+        <input id="forExatas" name="interesses" type="checkbox"> 
+        <label for="forLinguagens">Linguagens</label> 
+        <input id="forLinguagens" name="interesses" type="checkbox"> 
+        <label for="forCiencias">Ciencias</label> 
+        <input id="forCiencias" name="interesses" type="checkbox"> 
+        <br>
+
+        <label for="forCorFavorita">Escolha sua cor favorita: </label>
+        <input type="color" id="forCorFavorita" name="cor"> <br>
+
+        <label>Sexo:</label><br>
+        <label for="forMasculino">Masculino:</label>
+        <input id="forMasculino" type="radio" name="sexo">
+        <label for="forFeminino">Feminino</label>
+        <input id="forFeminino" type="radio" name="sexo">
+        <label for="forNaoInformar">Prefiro não informar</label>
+        <input id="forNaoInformar" type="radio" name="sexo" checked>
+        <br>
+      </fieldset>
+      <fieldset>
+        <legend>Outras Informações</legend>
+
+        <label for="forNivelIngles">Nivel de Inglês:</label>
+        <input type="range" id="forNivelIngles" min="0" max="5" name="nivelIngles" value="0"> <br>
+        Escondido (Veja no inspecionar):
+        <input type="hidden" value="30913091" name="id">
+        <br><br>
+  
+        <label for="sobreVoce">Conte um pouco sobre você:</label> <br>
+        <textarea name="texto" id="sobreVoce" rows="4" cols="30" placeholder="digite aqui..."></textarea> <br>
+  
+        <label for="forEscolaridade">Escolaridade:</label> <br>
+        <select name="escolaridade" id="forEscolaridade">
+          <option disabled selected>Selecione uma opção</option>
+          <option>Ensino Fundamental Completo</option>
+          <option>Ensino Medio Completo</option>
+          <option>Ensino Superior Incompleto</option>
+          <option>Ensino Superior Completo</option>
+        </select>
+      </fieldset>
+
+      
+
+      <!-- <input type="submit" value="Enviar"> faz o msm que o abaixo -->
+      <button type="submit">Enviar</button>
+      <button type="button">Não faz nada</button>
+      <button type="reset">Limpar</button>
+    </form>
+
+  </body>
+  </html>

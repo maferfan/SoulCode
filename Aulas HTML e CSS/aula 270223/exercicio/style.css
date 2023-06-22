@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../image/plano-de-fundo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  margin: 50px 0 0 50px;
+  position: fixed;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  background-color: #029daf;
+  width: 100px;
+  height: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 8px;
+  color: aliceblue;
+  padding: 10px 5px;
+}
+
+li {
+  list-style: none;
+}
+
+a:hover {
+  width: 110px;
+  transition: 0.2s;
+}
+
+a:active {
+  color: white;
+}
+
+main {
+  height: 120vh;
+}

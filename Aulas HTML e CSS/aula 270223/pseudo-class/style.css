@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+  width: 100px;
+  height: 40px;
+  padding: 10px 5px;
+  background-color: greenyellow;
+  /* Remove o underline do link */
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 8px;
+  color: white;
+
+
+  transition: 0.2s;
+}
+
+/* Pseudo Classe */
+a:active {
+  color: crimson;
+}
+
+a:visited {
+  background-color: rgb(94, 150, 10);
+}
+
+a:hover {
+  background-color: #adFF8f;
+  /* transform: scale(1.1); aumenta a escala do elemento em 110% */
+  width: 110px;
+}

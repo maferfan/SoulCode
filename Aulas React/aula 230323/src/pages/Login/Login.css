@@ -1,0 +1,12 @@
+.formulario {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario .forms {
+  border: 2px solid;
+  border-radius: 8px;
+  padding: 20px;
+}
